@@ -2,7 +2,7 @@
 
 Interstitial and Rewarded video ads for Android
 
-Networks: Facebook, UnityAds, Google AdMob, IronSource, AdColony, Fyber, Tapjoy, Chartboost, Mintegral, InMoby, MyTarget, Smaato
+Networks: Facebook, UnityAds, Google AdMob, IronSource, AdColony, Fyber, Tapjoy, Chartboost, InMoby, MyTarget, Smaato
 
 ## Install
 ```bash
