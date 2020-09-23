@@ -20,6 +20,5 @@ dependencies {
   implementation 'com.android.support:customtabs:28.+'
   implementation 'com.applovin.mediation:ironsource-adapter:+'
   implementation 'com.applovin.mediation:smaato-adapter:+'
-  implementation 'com.applovin.mediation:tapjoy-adapter:+'
-
+  implementation 'com.applovin.mediation:unityads-adapter:+'
 }
