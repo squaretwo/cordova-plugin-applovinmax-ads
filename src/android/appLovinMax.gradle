@@ -29,4 +29,5 @@ dependencies {
   implementation 'com.applovin.mediation:ironsource-adapter:+'
   implementation 'com.applovin.mediation:smaato-adapter:+'
   implementation 'com.applovin.mediation:tapjoy-adapter:+'
+  implementation 'com.applovin.mediation:unityads-adapter:+'
 }
