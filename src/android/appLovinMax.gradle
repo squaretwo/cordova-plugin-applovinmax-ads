@@ -11,5 +11,6 @@ dependencies {
   implementation 'com.applovin.mediation:adcolony-adapter:+'
   implementation 'com.applovin.mediation:chartboost-adapter:+'
   implementation 'com.google.android.gms:play-services-base:16.1.0'
+  implementation 'com.applovin.mediation:facebook-adapter:+'
   
 }
