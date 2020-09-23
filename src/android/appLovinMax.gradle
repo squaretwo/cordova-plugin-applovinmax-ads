@@ -8,4 +8,5 @@ repositories {
 
 dependencies {
   implementation 'com.applovin:applovin-sdk:+'
+  implementation 'com.applovin.mediation:adcolony-adapter:+'
 }
