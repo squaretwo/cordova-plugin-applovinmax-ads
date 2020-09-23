@@ -15,6 +15,5 @@ dependencies {
   implementation 'com.android.support:recyclerview-v7:28.+'
   implementation 'com.android.support:appcompat-v7:28.+'
   implementation 'com.applovin.mediation:fyber-adapter:+'
-  implementation 'com.applovin.mediation:google-adapter:+'
-  implementation 'com.applovin.mediation:inmobi-adapter:+'
+
 }
