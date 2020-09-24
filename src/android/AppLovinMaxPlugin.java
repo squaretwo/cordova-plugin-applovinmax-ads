@@ -110,6 +110,21 @@ public class AppLovinMaxPlugin extends CordovaPlugin{
     }
 
     /**
+     * Set optional UID for s2s validation
+     * @param args
+     * @param callbackContext
+     * @throws JSONException
+     */
+    private void showMediationDebugger(JSONArray args, final CallbackContext callbackContext) throws JSONException {
+        cordova.getActivity().runOnUiThread(new Runnable() {
+            public void run() {
+                AppLovinSdk.getInstance(cordova.getActivity()).showMediationDebugger();
+                callbackContext.success();
+            }
+        });
+    }
+
+    /**
      * Ad unit initialization
      */
     private final String UNIT_TYPE_REWARDED_AD = "REWARDED";
