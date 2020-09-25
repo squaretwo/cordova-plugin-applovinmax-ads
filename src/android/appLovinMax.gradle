@@ -31,3 +31,19 @@ dependencies {
   implementation 'com.applovin.mediation:tapjoy-adapter:+'
   implementation 'com.applovin.mediation:unityads-adapter:+'
 }
+
+buildscript {
+    repositories {
+        maven { url 'https://applovin.bintray.com/Quality-Service' }
+    }
+    
+    dependencies {
+        classpath "com.applovin.quality:AppLovinQualityServiceGradlePlugin:3.+"
+    }
+}
+
+apply plugin: 'applovin-quality-service'
+
+applovin {
+       apiKey "b2eea126ed479880acab785474e4dc3a9323309d75879c79df889e776b5c6b264f000a8201bef1797fdc19"
+}
