@@ -85,6 +85,8 @@ public class AppLovinMaxPlugin extends CordovaPlugin{
     private void initAction(JSONArray args, final CallbackContext callbackContext) throws JSONException {
         AppLovinSdk.getInstance( cordova.getActivity() ).setMediationProvider( "max" );
         AppLovinSdk.initializeSdk( cordova.getActivity(), new AppLovinSdk.SdkInitializationListener() {
+            @Override
+            public void onSdkInitialized(final AppLovinSdkConfiguration configuration) {
                 // AppLovin SDK is initialized, start loading ads
                 callbackContext.success();
             }
