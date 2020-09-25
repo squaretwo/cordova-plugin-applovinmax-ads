@@ -80,6 +80,12 @@ let AppLovinMax = (function (){
             let userId = params["userId"];
             appLovinMaxExec('setUserId', [userId], params.onSuccess, params.onFailure);
         },
+        showMediationDebugger : function(params) {
+            if(!isAppLovinMaxInit){
+                throw new Error("AppLovinMax showMediationDebugger action error: plugin has not initialized");
+            }
+            appLovinMaxExec('showMediationDebugger', [], params.onSuccess, params.onFailure);
+        },
         showRewardedVideo : function(params) {
             if(!isAppLovinMaxInit){
                 throw new Error("AppLovinMax showRewardedVideo action error: plugin has not initialized");

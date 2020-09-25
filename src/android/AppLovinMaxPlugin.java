@@ -49,6 +49,10 @@ public class AppLovinMaxPlugin extends CordovaPlugin{
             setUserId(args, callbackContext);
             return true;
         }
+        if (action.equals("showMediationDebugger")) {
+            showMediationDebugger(args, callbackContext);
+            return true;
+        }
         if (action.equals("initAdUnit")) {
             initAdUnit(args, callbackContext);
             return true;
@@ -104,6 +108,21 @@ public class AppLovinMaxPlugin extends CordovaPlugin{
         cordova.getActivity().runOnUiThread(new Runnable() {
             public void run() {
                 AppLovinSdk.getInstance(cordova.getActivity()).setUserIdentifier(userId);
+                callbackContext.success();
+            }
+        });
+    }
+
+    /**
+     * Show the optional mediation debugger
+     * @param args
+     * @param callbackContext
+     * @throws JSONException
+     */
+    private void showMediationDebugger(JSONArray args, final CallbackContext callbackContext) throws JSONException {
+        cordova.getActivity().runOnUiThread(new Runnable() {
+            public void run() {
+                AppLovinSdk.getInstance(cordova.getActivity()).showMediationDebugger();
                 callbackContext.success();
             }
         });
