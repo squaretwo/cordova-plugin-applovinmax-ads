@@ -112,7 +112,7 @@ public class AppLovinMaxPlugin extends CordovaPlugin{
     }
 
     /**
-     * Set optional UID for s2s validation
+     * Show the optional mediation debugger
      * @param args
      * @param callbackContext
      * @throws JSONException
