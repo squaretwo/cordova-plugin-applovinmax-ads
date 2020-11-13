@@ -1,9 +1,9 @@
 repositories {
-    maven { url "https://adcolony.bintray.com/AdColony" }
-    maven { url "https://chartboostmobile.bintray.com/Chartboost" }
-    maven { url "https://fyber.bintray.com/marketplace" }
-    maven { url "https://applovin.bintray.com/Android-Adapter-SDKs" }
-    maven { url "https://s3.amazonaws.com/smaato-sdk-releases/" }
+//     maven { url "https://adcolony.bintray.com/AdColony" }
+//     maven { url "https://chartboostmobile.bintray.com/Chartboost" }
+//     maven { url "https://fyber.bintray.com/marketplace" }
+//     maven { url "https://applovin.bintray.com/Android-Adapter-SDKs" }
+//     maven { url "https://s3.amazonaws.com/smaato-sdk-releases/" }
 }
 
 android {
